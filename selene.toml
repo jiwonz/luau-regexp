@@ -1,4 +1,4 @@
-std = "roblox+testez"
+std = "luau+testez"
 
 [config]
 empty_if = { comments_count = true }

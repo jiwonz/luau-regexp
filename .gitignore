@@ -4,3 +4,4 @@ Packages/*
 roblox.toml
 rotriever.lock
 *.rbxmx
+sourcemap.json

@@ -39,7 +39,7 @@ function RegExp:test(str: string): boolean
     return self:exec(str) ~= nil
 end
 
-local function new(_self, pattern: RegExp | string, flags: string?)
+local function new(pattern: RegExp | string, flags: string?)
     flags = flags or ""
     local innerRegEx = RegEx.new(pattern, flags)
     local object = {

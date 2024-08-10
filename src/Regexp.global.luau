@@ -53,10 +53,6 @@ local function new(_self, pattern: RegExp | string, flags: string?)
     return setmetatable(object, RegExpMetatable)
 end
 
--- FIXME: Capture this as a local variable before returning, else a luau bug
--- prevents __call from being understood: https://jira.rbx.com/browse/CLI-40294
-local interface = setmetatable(RegExp, {
-    __call = new,
-})
-
-return interface
+return {
+	new = new
+}

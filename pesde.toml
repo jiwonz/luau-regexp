@@ -1,0 +1,14 @@
+name = "jiwonz/luau_regexp"
+version = "0.1.0"
+description = "A regular expression library for Luau."
+authors = ["Roblox", "Blockzez"]
+repository = "https://github.com/Roblox/luau-regexp"
+license = "MIT"
+includes = ["README.md", "pesde.toml", "src"]
+
+[target]
+environment = "luau"
+lib = "src/Regexp.global.luau"
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"

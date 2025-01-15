@@ -1,7 +1,7 @@
 name = "jiwonz/luau_regexp"
-version = "0.1.0"
+version = "0.1.1"
 description = "A regular expression library for Luau."
-authors = ["Roblox", "Blockzez"]
+authors = ["Roblox", "Blockzez", "jiwonz <me@jiwonz.kr>"]
 repository = "https://github.com/Roblox/luau-regexp"
 license = "MIT"
 includes = ["README.md", "pesde.toml", "src", "LICENSE"]
@@ -12,3 +12,8 @@ lib = "src/Regexp.global.luau"
 
 [indices]
 default = "https://github.com/daimond113/pesde-index"
+
+[dev_dependencies]
+selene = { name = "pesde/selene", version = "^0.27.1", target = "lune" }
+luau_lsp = { name = "pesde/luau_lsp", version = "^1.38.1", target = "lune" }
+stylua = { name = "pesde/stylua", version = "^2.0.2", target = "lune" }

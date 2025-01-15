@@ -5,3 +5,6 @@ roblox.toml
 rotriever.lock
 *.rbxmx
 sourcemap.json
+
+luau_packages
+lune_packages

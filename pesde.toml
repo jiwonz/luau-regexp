@@ -4,7 +4,7 @@ description = "A regular expression library for Luau."
 authors = ["Roblox", "Blockzez", "jiwonz <me@jiwonz.kr>"]
 repository = "https://github.com/Roblox/luau-regexp"
 license = "MIT"
-includes = ["README.md", "pesde.toml", "src", "LICENSE"]
+includes = ["README.md", "pesde.toml", "src/**", "LICENSE"]
 
 [target]
 environment = "luau"

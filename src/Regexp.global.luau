@@ -50,7 +50,7 @@ local function new(pattern: RegExp | string, flags: string?): RegExp
 		_innerRegEx = innerRegEx,
 	}
 
-	return setmetatable(object, RegExpMetatable)
+	return setmetatable(object, RegExpMetatable) :: any
 end
 
 return {

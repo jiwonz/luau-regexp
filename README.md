@@ -1,6 +1,12 @@
 # RegExp for Luau
 A regular expression library for Luau. Adapted from a regex implementation by github user Blockzez (https://github.com/Blockzez).
 
+## Installation
+via pesde
+```sh
+pesde add jiwonz/luau_regexp
+```
+
 ## API
 Create a regex with the `new` function:
 `RegExp.new(pattern: string, flags: string) -> RegularExpression`

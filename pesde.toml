@@ -2,7 +2,7 @@ name = "jiwonz/luau_regexp"
 version = "0.1.2"
 description = "A regular expression library for Luau. Uploaded for pesde"
 authors = ["Roblox", "Blockzez", "jiwonz <me@jiwonz.kr>"]
-repository = "https://github.com/Roblox/luau-regexp"
+repository = "https://github.com/jiwonz/luau-regexp"
 license = "MIT"
 includes = ["README.md", "pesde.toml", "src/**", "LICENSE"]
 

@@ -1,3 +1,4 @@
+--!nonstrict
 local RegEx = require("./RegEx")
 type Array<T> = { [number]: T }
 

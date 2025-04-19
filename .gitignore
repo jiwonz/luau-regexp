@@ -8,3 +8,5 @@ sourcemap.json
 
 luau_packages
 lune_packages
+
+/target

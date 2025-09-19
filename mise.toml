@@ -1,0 +1,5 @@
+[settings]
+experimental = true
+
+[tools]
+"github:seaofvoices/darklua" = "0.17.1"

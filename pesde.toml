@@ -20,4 +20,3 @@ pesde = "^0.6.0"
 
 [dev_dependencies]
 multitarget = { name = "jiwonz/multitarget", version = "^0.4.0-rc.29", target = "lune" }
-darklua = { name = "pesde/darklua", version = "^0.16.0", target = "lune" }

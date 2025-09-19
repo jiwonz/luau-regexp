@@ -1,4 +1,4 @@
-local RegExp = require("./src/Regexp_global")
+local RegExp = require("@self/src/Regexp_global")
 
 export type RegExp = RegExp.RegExp
 
